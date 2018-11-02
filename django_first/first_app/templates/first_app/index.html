@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
   <head>
     <meta charset="utf-8">
@@ -7,5 +8,7 @@
   <body>
     <h4>this is index.html</h4>
     {{insert_me}}
+    <br/>
+    <img src="{% static "images/pic.jpg" %}" alt="an error has occurred">
   </body>
 </html>
